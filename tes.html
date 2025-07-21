@@ -249,7 +249,141 @@
         </div>
       </section>
 
-      
+            <section id="about" class="py-20 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 overflow-hidden">
+        <div class="container mx-auto px-6">
+          <!-- Header with Animation -->
+          <div class="text-center mb-16 opacity-0 animate-fadeInUp" data-aos>
+            <h2 class="text-4xl font-bold text-white mb-4">
+              About Me
+            </h2>
+            <div class="w-24 h-1 mx-auto bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
+          </div>
+
+          <div class="flex flex-col md:flex-row items-center md:items-start gap-12">
+            <!-- Profile Image Section -->
+            <div class="w-full md:w-1/2 flex flex-col items-center space-y-8">
+              <div class="relative group opacity-0 animate-fadeInLeft" data-aos style="animation-delay: 0.3s;">
+                <!-- Main Image Container -->
+                <div class="relative w-64 h-72 md:w-80 md:h-96 rounded-2xl overflow-hidden">
+                  <img
+                    src="./src/img/Foto-Profil.jpg"
+                    alt="Profile Photo"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-all duration-500"
+                  />
+                  <!-- Overlay -->
+                  <div class="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                
+                <!-- Decorative Elements -->
+                <div class="absolute -top-4 -right-4 w-full h-full border-2 border-blue-500/30 rounded-2xl transform group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
+                <div class="absolute -bottom-4 -left-4 w-full h-full border-2 border-purple-500/30 rounded-2xl transform group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
+              </div>
+
+              <!-- Social Links -->
+              <div class="flex gap-4 opacity-0 animate-fadeInUp" data-aos style="animation-delay: 0.5s;">
+                <a href="https://github.com/mtaufik26/" class="p-3 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors duration-300 group">
+                  <i class="fab fa-github text-xl text-gray-400 group-hover:text-white"></i>
+                </a>
+                <a href="https://linkedin.com/in/muhammad-taufik-ediansyah" class="p-3 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors duration-300 group">
+                  <i class="fab fa-linkedin-in text-xl text-gray-400 group-hover:text-white"></i>
+                </a>
+                <a href="https://www.instagram.com/kozora.26/" class="p-3 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors duration-300 group">
+                  <i class="fab fa-instagram text-xl text-gray-400 group-hover:text-white"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Content Section -->
+            <div class="w-full md:w-1/2 space-y-8">
+              <!-- Introduction -->
+              <div class="space-y-6">
+                <h3 class="text-2xl font-bold text-white opacity-0 animate-fadeInRight" data-aos style="animation-delay: 0.4s;">Frontend Developer</h3>
+                <p class="text-lg text-gray-300 leading-relaxed opacity-0 animate-fadeInRight" data-aos style="animation-delay: 0.6s;">
+                  Saya lulusan SMK Wikrama Bogor jurusan 
+                  <span class="text-blue-400 font-semibold">PPLG (Software and Game Development)</span>
+                  dengan fokus Frontend Development. Menguasai HTML, CSS, JavaScript, dan React.js, berpengalaman dalam membangun UI responsif.
+                </p>
+                <p class="text-gray-400 leading-relaxed opacity-0 animate-fadeInRight" data-aos style="animation-delay: 0.8s;">
+                  Saya dikenal karena sikap baik, ramah, komunikatif, rajin, dan berorientasi pada target. Saya percaya pada nilai-nilai seperti disiplin, kejujuran, dan tanggung jawab.
+                </p>
+                
+                <!-- Download CV Button -->
+                <div class="pt-4 opacity-0 animate-fadeInRight" data-aos style="animation-delay: 1s;">
+                  <a
+                    href="./src/pdf/CV-Taufik.pdf"
+                    target="_blank"
+                    class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg"
+                  >
+                    <i class="fas fa-eye mr-2"></i>
+                    View CV
+                  </a>
+                  <a
+                    href="./src/pdf/CV-Taufik.pdf"
+                    download="CV_Taufik.pdf"
+                    class="inline-flex items-center px-6 py-3 bg-gray-700 text-white font-medium rounded-lg hover:bg-gray-600 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg ml-4"
+                  >
+                    <i class="fas fa-download mr-2"></i>
+                    Download CV
+                  </a>
+                </div>
+              </div>
+
+              <!-- Skills Grid -->
+            <div class="space-y-6">
+              <h3 class="text-xl font-semibold text-white opacity-0 animate-fadeInRight" data-aos style="animation-delay: 1.2s;">
+                Technical Skills
+              </h3>
+              <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                <!-- Skill Items with individual animations -->
+                <div class="bg-gray-800/50 p-4 rounded-lg backdrop-blur-sm hover:bg-gray-700/50 transition-colors duration-300 group opacity-0 animate-fadeInScale" data-aos style="animation-delay: 1.4s;">
+                  <div class="flex items-center space-x-3">
+                    <i class="fab fa-js text-yellow-400 text-2xl group-hover:scale-110 transition-transform duration-300"></i>
+                    <span class="text-gray-300">JavaScript</span>
+                  </div>
+                </div>
+                <div class="bg-gray-800/50 p-4 rounded-lg backdrop-blur-sm hover:bg-gray-700/50 transition-colors duration-300 group opacity-0 animate-fadeInScale" data-aos style="animation-delay: 1.5s;">
+                  <div class="flex items-center space-x-3">
+                    <i class="fab fa-react text-blue-400 text-2xl group-hover:scale-110 transition-transform duration-300"></i>
+                    <span class="text-gray-300">React.js</span>
+                  </div>
+                </div>
+                <div class="bg-gray-800/50 p-4 rounded-lg backdrop-blur-sm hover:bg-gray-700/50 transition-colors duration-300 group opacity-0 animate-fadeInScale" data-aos style="animation-delay: 1.6s;">
+                  <div class="flex items-center space-x-3">
+                    <i class="fab fa-html5 text-orange-400 text-2xl group-hover:scale-110 transition-transform duration-300"></i>
+                    <span class="text-gray-300">HTML</span>
+                  </div>
+                </div>
+                <div class="bg-gray-800/50 p-4 rounded-lg backdrop-blur-sm hover:bg-gray-700/50 transition-colors duration-300 group opacity-0 animate-fadeInScale" data-aos style="animation-delay: 1.7s;">
+                  <div class="flex items-center space-x-3">
+                    <i class="fab fa-css3-alt text-blue-400 text-2xl group-hover:scale-110 transition-transform duration-300"></i>
+                    <span class="text-gray-300">CSS</span>
+                  </div>
+                </div>
+                <div class="bg-gray-800/50 p-4 rounded-lg backdrop-blur-sm hover:bg-gray-700/50 transition-colors duration-300 group opacity-0 animate-fadeInScale" data-aos style="animation-delay: 1.8s;">
+                  <div class="flex items-center space-x-3">
+                    <i class="fab fa-laravel text-red-400 text-2xl group-hover:scale-110 transition-transform duration-300"></i>
+                    <span class="text-gray-300">Laravel</span>
+                  </div>
+                </div>
+                <div class="bg-gray-800/50 p-4 rounded-lg backdrop-blur-sm hover:bg-gray-700/50 transition-colors duration-300 group opacity-0 animate-fadeInScale" data-aos style="animation-delay: 1.9s;">
+                  <div class="flex items-center space-x-3">
+                    <i class="fab fa-php text-purple-400 text-2xl group-hover:scale-110 transition-transform duration-300"></i>
+                    <span class="text-gray-300">PHP</span>
+                  </div>
+                </div>
+                <div class="bg-gray-800/50 p-4 rounded-lg backdrop-blur-sm hover:bg-gray-700/50 transition-colors duration-300 group opacity-0 animate-fadeInScale" data-aos style="animation-delay: 1.9s;">
+                  <div class="flex items-center space-x-3">
+                    <i class="fas fa-wind text-blue-400 text-2xl group-hover:scale-110 transition-transform duration-300"></i>
+                    <span class="text-gray-300">Tailwind CSS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </section>      
 
     </main>
 
